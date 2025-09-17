@@ -4,8 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(50, 50, 50);
+}
+
+
 nav {
-    background-color: darkblue;
+    background-color: rgb(39, 39, 194);
     padding: 10px;
 }
 
@@ -28,7 +37,7 @@ h1 {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: right;
+    float: center;
     margin: 0 0 1rem 1rem;  
 }
 
@@ -55,6 +64,7 @@ aside {
   width: 20em;
   text-align: center;
   position: relative;
+  
 }
 
 aside img {
@@ -64,8 +74,8 @@ aside img {
 
 aside h2 {
   position: absolute;
-  top: 50px;
-  left: 200px;
+  top: 7px;
+  left: 60px;
 }
 
 
@@ -82,4 +92,10 @@ footer {
   padding: 1rem;
   background-color: #eee;
   color: #000;
+}
+
+.indent {
+  margin-left: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 2rem;
 }
