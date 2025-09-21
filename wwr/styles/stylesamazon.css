@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 01;       
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 0px;
+    background-color: rgb(6, 39, 14);
+    color: rgb(50, 50, 50);
+}
+
+
+nav {
+    background-color: rgba(170, 104, 18, 0.993);
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 3px solid rgb(170, 104, 0.993);
+}
+
+nav img {
+    width: 200px;       
+    height: auto;         
+    filter: drop-shadow(0 8px 10px rgb(5, 29, 1));
+    
+}
+
+nav .nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+
+nav .nav-links a {
+    color: rgb(12, 71, 35);
+    font-family: 'Cinzel', serif;
+    font-weight: 900; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;    
+    font-size: 80px;
+    text-decoration-color: 0 0 30px gray;
+    text-shadow: 1px 1px 2px #000000;
+    font-size: 2rem;
+}
+
+nav .nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+nav a {
+    color: rgb(12, 71, 35);
+    display: inline-block;
+    justify-content: center; 
+    align-items: center;    
+    padding: 20px;
+    line-height: 2.5;
+    font-family: 'Cinzel', serif;
+    font-weight: 900; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;    
+    font-size: 24px;
+    text-decoration-color: 0 0 30px gray;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+
+h1 {
+    color: rgb(170, 104, 0.993);
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 900; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;    
+    font-size: 35px;
+    text-decoration-color: 0 0 30px gray;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+
+  main img {
+    width: 800px;
+    height: 500px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    padding: 0px;
+    display: block;
+    margin: 1rem auto 0;  
+}
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #eee;
+  color: #000;
+}
+
+.indent {
+  margin-left: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 2rem;
+}
+
+footer {
+  margin-top: 15px;
+  border-top: 1px solid rgb(170, 104, 0.993);
+  text-align: center;
+  color: rgb(170, 104, 0.993);
+}
