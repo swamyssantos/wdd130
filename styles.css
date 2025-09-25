@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 
+main {
+  max-width: 840px;
+  margin: 0 auto; 
+}
+
+
+header, .grid, footer {
+      max-width: 840px;
+      margin: 0 auto;
+    }
+
+.grid {
+      display: grid;
+      align-items: center;
+    }
+    
+    main {
+      grid-column: 1/1;
+      grid-row: 1/2;
+      margin: 0px;
+    }
+    
+    aside {
+      width: 3rem;
+      position: relative;
+      grid-column: 1/1;
+      grid-row: 2/2;
+    }
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
@@ -14,34 +44,58 @@ body {
 
 
 nav {
-    background-color: rgb(39, 39, 194);
-    padding: 10px;
+    background-color: Steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     display: block;
-    padding: 20px;
+    padding: 10px;
+    padding: 0.5rem;
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    font-family: "Pacifico", cursive;
 }
 
 
 h1 {
-    color: Steelblue;
-    padding: .5rem;
+  color: Steelblue;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1px;
+  text-align: center;
   }
 
   main img {
     width: 150px;
-    height: 150px;
+    height: 180px;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: center;
-    margin: 0 0 1rem 1rem;  
+    display: block;
+    margin: 20px auto;
+
 }
 
 p {
     padding: 0;
+    align-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem;
+    line-height: 1.5;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-optical-sizing: auto;
+    
+
+
 }
 
 main {
@@ -73,8 +127,15 @@ aside img {
 
 aside h2 {
   position: absolute;
-  top: 7px;
-  left: 60px;
+  top: 12px;
+  left: 320px;
+  text-decoration-color: 0 0 50px gray;
+  text-shadow: 1px 1px 2px #ffffff;
+  font-family: "Sarina", cursive;
+  font-weight: 4300;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 0.0em;
 }
 
 
@@ -86,15 +147,27 @@ footer {
 
 /* class selectors */
 .box {
-  margin: 1rem;
+  width: 840px;                    
+  margin-left: auto;              
+  margin-right: auto;
   border: 1px solid rgba(0,0,0,.1);
   padding: 1rem;
+  text-align: center;
   background-color: #eee;
   color: #000;
+  display: block;                   
+  float: none;                     
 }
 
 .indent {
-  margin-left: 1rem;
+  width: 840px;
+  margin: 0 auto;
+  margin-left: auto;              /* empurra para a direita */
+  margin-right: auto;   
   border: 1px solid rgba(0,0,0,.1);
+  list-style-position: inside;
+  text-align: center;
   padding: 2rem;
+  display: block;                 
+  float: none;  
 }

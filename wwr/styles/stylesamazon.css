@@ -9,15 +9,19 @@ body {
     line-height: 1.6;
     padding: 0px;
     background-color: rgb(6, 39, 14);
-    color: rgb(50, 50, 50);
+    margin-top: 15px;
+    border-top: 1px solid rgb(170, 104, 0.993);
+    text-align: center;
+    color: rgb(170, 104, 0.993);
 }
 
 
 nav {
-    background-color: rgba(170, 104, 18, 0.993);
-    padding: 10px 10px;
+    background-color: rgb(170, 104, 0.993);
+    padding: 5px 5px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: relative;
     border: 3px solid rgb(170, 104, 0.993);
 }
@@ -42,13 +46,13 @@ nav .nav-links {
 nav .nav-links a {
     color: rgb(12, 71, 35);
     font-family: 'Cinzel', serif;
-    font-weight: 900; 
+    font-weight: 800; 
     text-transform: uppercase; 
-    letter-spacing: 2px;    
-    font-size: 80px;
+    letter-spacing: 0px;    
+    font-size: 15px;
     text-decoration-color: 0 0 30px gray;
     text-shadow: 1px 1px 2px #000000;
-    font-size: 2rem;
+    
 }
 
 nav .nav-links a:hover {
@@ -62,15 +66,15 @@ nav a {
     display: inline-block;
     justify-content: center; 
     align-items: center;    
-    padding: 20px;
+    padding: 5px;
     line-height: 2.5;
     font-family: 'Cinzel', serif;
     font-weight: 900; 
     text-transform: uppercase; 
     letter-spacing: 2px;    
-    font-size: 24px;
+    font-size: 20px;
     text-decoration-color: 0 0 30px gray;
-    text-shadow: 1px 1px 1px #000000;
+    text-shadow: 1px 1px 1px #75500a;
 }
 
 
@@ -101,7 +105,8 @@ h1 {
   margin: 1rem;
   border: 1px solid rgba(0,0,0,.1);
   padding: 1rem;
-  background-color: #eee;
+  text-align: left;
+  background-color: #a18852;
   color: #000;
 }
 
@@ -110,6 +115,12 @@ h1 {
   border: 1px solid rgba(0,0,0,.1);
   padding: 2rem;
 }
+
+
+header, footer {
+      max-width: 840px;
+      margin: 0 auto;
+    }
 
 footer {
   margin-top: 15px;
